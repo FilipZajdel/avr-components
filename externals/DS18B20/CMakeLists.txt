@@ -1,0 +1,13 @@
+set(CMAKE_C_COMPILER avr-gcc)
+
+set(CMAKE_C_FLAGS "-std=c11 -g -Os -mmcu=atmega328p")
+
+set(CMAKE_SHARED_LIBRARY_LINK_C_FLAGS "")
+
+get_property(TIMERS_PROPERTY_LOCAL GLOBAL PROPERTY TIMERS_PROPERTY)
+
+include_directories(${TIMERS_PROPERTY_LOCAL})
+
+set(DS18B20_INCLUDE "${CMAKE_CURRENT_SOURCE_DIR}" PARENT_SCOPE)
+
+add_library(ds18b20lib term.c)

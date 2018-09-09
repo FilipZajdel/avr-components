@@ -1,0 +1,7 @@
+set(CMAKE_C_COMPILER avr-gcc)
+
+set(DATA_BUFFERS_INCLUDE "${CMAKE_CURRENT_SOURCE_DIR}" PARENT_SCOPE)
+
+set_property(GLOBAL PROPERTY DATA_BUFFERS_PROPERTY "${CMAKE_CURRENT_SOURCE_DIR}")
+
+add_library(data_bufferslib data_buffers.c)
