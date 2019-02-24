@@ -6,4 +6,4 @@
   system - modules used to process data etc.
 
 # Usage
-  Example usage can be seen [avr_serial_logger](/https://github.com/FilipZajdel/avr-serial_logger)
+  Example usage can be seen [avr_serial_logger](https://github.com/FilipZajdel/avr-serial_logger)
