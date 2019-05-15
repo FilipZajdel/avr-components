@@ -1,6 +1,6 @@
 # avr-components
 
-Modules used in building projects on AVR ATmega.
+Modules used for building projects on AVR ATmega.
 
 ## Overview
   [*externals*](https://github.com/FilipZajdel/avr-components/tree/master/externals) - includes modules for interfacing atmel mcu with other devices (DS18B20, HD44780 and Buttons) have been supported so far.
